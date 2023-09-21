@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* En tu archivo style.css */
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+/* Define clases de colores para la leyenda */
+.color-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
